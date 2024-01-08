@@ -1,0 +1,60 @@
+<!-- LJMS Info Hub Copyright@ 2024 by Jiaxiang Xie is licensed under Attribution-ShareAlike 4.0 International :D -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to LJMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Welcome LJMS!</h1>
+            <p id="roarr">We ROAR as one!</p>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAUqBVkAMno3Q3U4XsQTlP5qTZ2ycvEUQOdj6mj1vv4uVjEIHdgHGwVBbb0TSo8FInpPbBwUOBQJt9/embed?start=true&loop=true&delayms=3000" frameborder="0" width="970" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="content">
+            <p id="datetitle">Today's Date is:</p>
+            <p id="liveDate"></p>
+            <p id="liveTime"></p>
+            
+            <p id="todayis">Today is an:</p>
+            <div id="list1" class="list-container">
+                <h2 id="day">Odd day</h2>
+                <ul id="daylist">
+                    <li id="daylist">Period 1: 7:30-8:55</li>
+                    <li id="daylist">Period 3: 8:59-9:44</li>
+                    <li id="daylist">Period 4: 9:48-10:38</li>
+                    <li id="daylist">Period 5: 10:42-12:45</li>
+                    <li id="daylist">Period 7: 12:49-2:15</li>
+                </ul>
+            </div>
+            <div id="list2" class="list-container">
+                <h2 id="day">Even day</h2>
+                <ul id="daylist">
+                    <li id="daylist">Period 2: 7:30-8:55</li>
+                    <li id="daylist">Period 3: 8:59-9:44</li>
+                    <li id="daylist">Period 4: 9:48-10:38</li>
+                    <li id="daylist">Period 6: 10:42-12:45</li>
+                    <li id="daylist">Period 8: 12:49-2:15</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <button id="fullscreenBtn" onclick="toggleFullscreen()">Go Fullscreen</button>
+
+
+    <div id="console">
+        <button onclick="toggleLists()">Toggle Lists</button>
+    </div>
+    
+    <script src="Script.js"></script>
+</body>
+</html>
